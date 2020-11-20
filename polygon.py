@@ -2,8 +2,7 @@ import math
 
 class Polygon:
     def __init__(self, n, R):
-        if n < 3:
-            raise ValueError('Polygon must have at least 3 vertices.')
+
         self._n = n
         self._R = R
         self._area = None
